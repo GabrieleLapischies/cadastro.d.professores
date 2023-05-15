@@ -40,7 +40,7 @@
             echo $user['cpf'] . " -- ";
             echo $user['email'] . " -- ";
             echo $user['telefone'] . " -- ";
-            echo $user['instituicao'] . "<br/>;
+            echo $user['instituicao'] . "<br/>";
         }
 
 
