@@ -36,11 +36,11 @@
 
         for ($i = 0; $i < $linhas; $i++){
             $user = mysqli_fetch_array($res);
-            echo $user['nome'];
-            echo $user['cpf'];
-            echo $user['email'];
-            echo $user['telefone'];
-            echo $user['instituicao'];
+            echo $user['nome'] . " -- ";
+            echo $user['cpf'] . " -- ";
+            echo $user['email'] . " -- ";
+            echo $user['telefone'] . " -- ";
+            echo $user['instituicao'] . "<br/>;
         }
 
 
